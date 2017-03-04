@@ -1,4 +1,4 @@
-from  https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-4-9f843c8c1ccc#.q8nbonqw0
+https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-4-9f843c8c1ccc#.q8nbonqw0
 
 Success! Created hello-world at D:\project\mybok\react\hello-world
 Inside that directory, you can run several commands:
