@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import MainTree from './MainTree';
 import './index.css';
+import 'antd/dist/antd.css';
 
 ReactDOM.render(
-    <App/>,
+    <MainTree/>,
     document.getElementById('root')
 );
