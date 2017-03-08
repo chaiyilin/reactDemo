@@ -1,4 +1,4 @@
-https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-4-9f843c8c1ccc#.q8nbonqw0
+https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc#.ah2yrvhqu
 
 Inside that directory, you can run several commands:
 
