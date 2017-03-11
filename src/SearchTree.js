@@ -32,7 +32,7 @@ class SearchTree extends Component {
     };
     onChange = (e) => {
         const value = e.target.value;
-        const expandedKeys = content.map((item,index, arr) => {
+        const expandedKeys = content.map((item, index, arr) => {
             if (item.title.indexOf(value) > -1) {
                 return getParentKey(item.key, content);
             }
@@ -50,7 +50,7 @@ class SearchTree extends Component {
         const loop = data => data.map((item) => {
             const index = item.title.indexOf(searchValue);//const index = item.key.search(searchValue);
             const beforeStr = item.title.substr(0, index);//const beforeStr = item.key.substr(0, index);
-            const matched=item.title.substr(index,searchValue.length);
+            const matched = item.title.substr(index, searchValue.length);
             const afterStr = item.title.substr(index + searchValue.length);//const afterStr = item.key.substr(index + searchValue.length);
             const title = index > -1 ?
                 (
@@ -59,7 +59,7 @@ class SearchTree extends Component {
                         <span style={{color: '#f50'}}>{matched}</span>
                         {afterStr}
                     </span>
-            ) : <span>{item.title}</span>;
+                ) : <span>{item.title}</span>;
             if (item.children) {
                 return (
                     <TreeNode title={title}>
