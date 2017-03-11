@@ -6,6 +6,6 @@ import './index.css';
 import 'antd/dist/antd.css';
 
 ReactDOM.render(
-    <SearchTree/>,
+    <MainLayout/>,
     document.getElementById('root')
 );
