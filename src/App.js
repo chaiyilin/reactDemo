@@ -1,11 +1,13 @@
 import React from 'react';
 import HelloWorldList from './HelloWorldList';
+import Dock from 'react-dock';
+import SearchTree from './SearchTree';
 
 const App = () => {
     return (
-        <div className="App">
-            <HelloWorldList />
-        </div>
+        <Dock position='left'>
+            <SearchTree></SearchTree>
+        </Dock>
     );
 };
 
